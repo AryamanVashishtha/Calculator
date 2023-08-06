@@ -1,0 +1,85 @@
+/* Style for all elements */
+*{
+    /* border: 1px solid black; */
+    margin:0;
+    padding:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#calculator{
+    width:50%;
+    max-width: 400px;
+    min-width: 325px;
+    margin:auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10px;
+    background-color: rgb(68, 68, 68);
+    border-radius: 20px;
+}
+#heading{
+    text-align: center;
+}
+#heading h1{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: white;
+    font-size: 3rem;
+}
+#display-container{
+    margin: 2% 1%;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    background-color: rgb(45, 45, 45);
+    border-radius: 8px;
+}
+#display{
+    margin-right: 2%;
+    text-align: end;
+    font-size: 2.7rem;
+    color: white;
+    
+
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+button#but0{
+    grid-column: span 2;
+}
+
+/* Style Properties General */
+.button{
+    font-size: 2rem;
+    padding: 9% 9% 9% 9%;
+    margin: 2px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    align-items: center;
+}
+.orange{
+    font-size: 2rem;
+    padding: 7% 9% 7% 9%;
+    margin: 2px;
+    background-color: rgb(255, 141, 0);
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    align-items: center;
+}
+.grey{
+    font-size: 2rem;
+    padding: 7% 9% 7% 9%;
+    margin: 2px;
+    background-color: rgb(230, 230, 230);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 1px solid black;
+    align-items: center;
+}
